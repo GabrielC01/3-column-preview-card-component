@@ -1,0 +1,80 @@
+@font-face {
+	font-family:			"Lexend Deca";
+	src:					url("fonts/LexendDeca-Regular.ttf");	
+}
+
+body {
+	margin:					0;
+	background-color:		white;
+	display:				flex;
+	flex-direction:			column;
+	justify-content:		center;
+	align-items:			center;
+	height:					100vh;
+	font-family:			"Lexend Deca";
+}
+
+main {
+	display:				flex;
+	width:					55%;
+	margin:					2vmax;
+}
+
+main div {
+	padding:				3vmax;	
+	color:					white;
+	display:				flex;
+	flex-direction:			column;
+	flex:					1;
+	column-gap:				10vmax;
+	justify-content:		space-between;
+}
+
+main div img {
+	width:					30%;
+}
+
+main div h2 {
+	text-transform:			uppercase;
+	font-size:				2vmax;
+}
+
+main div p {
+	font-size:				1.2vmax;
+	color:					hsla(0, 0%, 100%, 0.75);
+}
+
+.sedans {
+	background-color:		hsl(31, 77%, 52%);
+	border-radius:			1vmin 0 0 1vmin;
+}
+
+.suvs {
+	background-color:		hsl(184, 100%, 22%);
+}
+
+.luxury {
+	background-color:		hsl(179, 100%, 13%);
+	border-radius:			0 1vmin 1vmin 0;
+}	
+
+.learn-more {
+	border:					none;
+	border-radius:			2vmax;
+	font-size:				1vmax;
+	font-weight:			bold;
+	background-color:		white;
+	width:					10vmax;
+	height:					3vmax;
+	margin:					4vmax 0 0 0;
+}
+
+#learn-sedans {
+	color:					hsl(31, 77%, 52%);
+}
+#learn-suvs {
+	color:					hsl(184, 100%, 22%);
+}	
+#learn-more {
+	color:					hsl(179, 100%, 13%);
+}
