@@ -78,3 +78,34 @@ main div p {
 #learn-more {
 	color:					hsl(179, 100%, 13%);
 }
+
+/* DESIGN FOR MOBILE DEVICES */
+@media (max-width: 600px) {
+	body {
+		margin:				0;
+		height:				100%;
+	}
+	main {
+		display:			flex;
+		flex-direction:		column;
+		width:				100%;
+		margin:				-1vmax 0 0 0;
+	}
+	main div {
+		display:			flex;
+	}
+	main div h2 {
+		font-size:			4vmax;
+	}
+	main div p {
+		font-size:			3vmax;
+	}
+	.learn-more {
+		width:				20vmax;
+		height:				5vmax;
+		font-size:			2.5vmax;
+	}
+	.sedans, .luxury {
+		border-radius:		0;
+	}
+}
